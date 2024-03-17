@@ -3,7 +3,7 @@ use test_automation::sub;
 #[test]
 fn test_add_correct_ans_fun(){
     
-    assert_eq!(add(4,5),9);   
+    assert_eq!(add(4,5),10);   
      
 }
 
@@ -19,6 +19,6 @@ fn test_wrong_ans_fun(){
 
 #[test]
 fn test_sub_wrong_ans_fun(){
-    assert_ne!(sub(2,1),0);
+    assert_ne!(sub(2,1),1);
 }
 
